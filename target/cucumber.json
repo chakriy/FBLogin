@@ -1,0 +1,449 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4247028332,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Opening Multi HomePages",
+        "description": "",
+        "id": "fblogin;opening-multi-homepages;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 711416916,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127229468,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in Chrome Browser",
+            "match": {
+              "location": "ExamplesStepDefs.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3311075330,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered \"https://www.bbc.co.uk/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.bbc.co.uk/",
+                  "offset": 11
+                }
+              ],
+              "location": "ExamplesStepDefs.step2(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24524373,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open \"\u003cWebSite\u003e\" HomePage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cWebSite\u003e",
+                  "offset": 6
+                }
+              ],
+              "location": "ExamplesStepDefs.step3(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@two"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2587267635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Opening Multi HomePages",
+        "description": "",
+        "id": "fblogin;opening-multi-homepages;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 747905237,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 88144,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in Chrome Browser",
+            "match": {
+              "location": "ExamplesStepDefs.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9728792019,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered \"https://www.sky.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.sky.com/",
+                  "offset": 11
+                }
+              ],
+              "location": "ExamplesStepDefs.step2(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18107417,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open \"\u003cWebSite\u003e\" HomePage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cWebSite\u003e",
+                  "offset": 6
+                }
+              ],
+              "location": "ExamplesStepDefs.step3(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@two"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2285622434,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Opening Multi HomePages",
+        "description": "",
+        "id": "fblogin;opening-multi-homepages;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 792820303,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97803,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in Chrome Browser",
+            "match": {
+              "location": "ExamplesStepDefs.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12933791679,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered \"https://www.cricinfo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.cricinfo.com/",
+                  "offset": 11
+                }
+              ],
+              "location": "ExamplesStepDefs.step2(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44265461,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open \"\u003cWebSite\u003e\" HomePage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cWebSite\u003e",
+                  "offset": 6
+                }
+              ],
+              "location": "ExamplesStepDefs.step3(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@two"
+          }
+        ]
+      }
+    ],
+    "name": "FbLogin",
+    "description": "",
+    "id": "fblogin",
+    "keyword": "Feature",
+    "uri": "Examples.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@two"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2281238208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Opening FB HomePage",
+        "description": "",
+        "id": "fblogin-demo;opening-fb-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 673216441,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141874,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I\u0027m in a Chrome Browser",
+            "match": {
+              "location": "FBLoginStepDefs.step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3804879639,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I entered facebook",
+            "match": {
+              "location": "FBLoginStepDefs.facebookWhen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34564261,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "open facebook HomePage",
+            "match": {
+              "location": "FBLoginStepDefs.facebookThen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@one"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2295163044,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Opening Gmail",
+        "description": "",
+        "id": "fblogin-demo;opening-gmail",
+        "after": [
+          {
+            "result": {
+              "duration": 710103218,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I\u0027m in a Chrome Browser",
+            "match": {
+              "location": "FBLoginStepDefs.step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3199129675,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Entered gmail",
+            "match": {
+              "location": "FBLoginStepDefs.gmailWhen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31729789,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "open gmail",
+            "match": {
+              "location": "FBLoginStepDefs.gmailThen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@one"
+          }
+        ]
+      }
+    ],
+    "name": "FbLogin Demo",
+    "description": "",
+    "id": "fblogin-demo",
+    "keyword": "Feature",
+    "uri": "FBLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@two1"
+      }
+    ]
+  }
+]

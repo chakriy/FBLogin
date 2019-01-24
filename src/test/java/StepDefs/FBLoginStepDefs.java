@@ -6,17 +6,18 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import static StepDefs.Hooks.driver;
 
 public class FBLoginStepDefs {
 
-    WebDriver driver;
+    //WebDriver driver;
 
 
     @Given("^I'm in a Chrome Browser$")
     public void step() {
         System.out.println(" I am in GIVEN");
-        System.setProperty("webdriver.chrome.driver", ".\\src\\test\\java\\Utilities\\chromedriver.exe");
-        driver = new ChromeDriver();
+       // System.setProperty("webdriver.chrome.driver", ".\\src\\test\\java\\Utilities\\chromedriver.exe");
+        //driver = new ChromeDriver();
     }
 
     @When("^I entered facebook$")
@@ -30,7 +31,7 @@ public class FBLoginStepDefs {
         System.out.println("I am in FB THEN" + "\n");
         System.out.println(driver.getTitle() + "\n");
         Assert.assertEquals(true, driver.getTitle().contains("Facebook"));
-        driver.quit();
+        //driver.quit();
 
 
     }
@@ -46,7 +47,7 @@ public class FBLoginStepDefs {
         System.out.println("I am in Gmail THEN");
         System.out.println(driver.getTitle() + "\n");
         Assert.assertEquals(true, driver.getTitle().contains("Gmail"));
-        driver.quit();
+        //driver.quit();
 
 
     }
@@ -62,7 +63,7 @@ public class FBLoginStepDefs {
         System.out.println("I am in BBC THEN" + "\n");
         System.out.println(driver.getTitle() + "\n");
         Assert.assertEquals(true, driver.getTitle().contains("BBC"));
-        driver.quit();
+        //driver.quit();
 
 
     }
@@ -78,7 +79,7 @@ public class FBLoginStepDefs {
         System.out.println("I am in Sky THEN" + "\n");
         System.out.println(driver.getTitle() + "\n");
         Assert.assertEquals(true, driver.getTitle().contains("Sky"));
-        driver.quit();
+        //driver.quit();
 
 
     }
@@ -94,7 +95,7 @@ public class FBLoginStepDefs {
         System.out.println("I am in Cricinfo THEN" + "\n");
         System.out.println(driver.getTitle() + "\n");
         Assert.assertEquals(true, driver.getTitle().contains("cricinfo"));
-        driver.quit();
+        //driver.quit();
 
 
     }

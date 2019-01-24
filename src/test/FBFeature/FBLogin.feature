@@ -1,10 +1,12 @@
+@two1
 Feature: FbLogin Demo
 
+  @one
   Scenario: Opening FB HomePage
     Given I'm in a Chrome Browser
     When I entered facebook
     Then open facebook HomePage
-
+  @one
   Scenario: Opening Gmail
     Given I'm in a Chrome Browser
     When I Entered gmail
